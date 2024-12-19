@@ -1,0 +1,61 @@
+{
+  "name": "@ogea12/tsconfig",
+  "description": "Config' TypeScript appliquées dans les projets de l'OGEA 12",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=20.17.0"
+  },
+  "files": [
+    "tsconfig.app.json",
+    "tsconfig.base.json",
+    "tsconfig.client.json",
+    "tsconfig.package.json"
+  ],
+  "exports": {
+    "./tsconfig.app": "./tsconfig.app.json",
+    "./tsconfig.client": "./tsconfig.client.json",
+    "./tsconfig.package": "./tsconfig.package.json"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "release": "npx release-it"
+  },
+  "homepage": "https://github.com/ogea12/tsconfig#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogea12/tsconfig.git"
+  },
+  "devDependencies": {
+    "@ogea12/prettier-config": "^1.0.0",
+    "prettier": "^3.4.2",
+    "release-it": "^17.10.0"
+  },
+  "peerDependencies": {
+    "@swc/core": "^1.10.1",
+    "ts-node-maintained": "^10.9.4",
+    "typescript": "^5.7.2"
+  },
+  "author": "OGEA 12",
+  "license": "MIT",
+  "keywords": [
+    "ogea12",
+    "tsconfig"
+  ],
+  "prettier": "@ogea12/prettier-config",
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore(release): ${version}",
+      "tagAnnotation": "v${version}",
+      "tagName": "v${version}"
+    },
+    "github": {
+      "release": true,
+      "releaseName": "v${version}",
+      "web": true
+    }
+  }
+}
