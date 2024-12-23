@@ -12,14 +12,18 @@
 
 ## Premiers pas
 
+### Installation
+
 Pour utiliser le package, vous devez d'abord l'intégrer dans votre projet.
 
 ```bash
 npm install -D @ogea12/tsconfig
 
 # Assurez-vous également d'installer les packages suivants
-npm install -D typescript ts-node-maintained @swc/core
+npm install -D typescript @swc/core
 ```
+
+### Utilisation
 
 Une fois l'installation terminée, vous pouvez ajouter le fichier `tsconfig.json` dans votre projet avec un des préréglages ci-dessous en fonction de vos besoins.
 
@@ -58,5 +62,17 @@ Une fois l'installation terminée, vous pouvez ajouter le fichier `tsconfig.json
 
 {
   "extends": "@adonisjs/tsconfig/tsconfig.client",
+}
+```
+
+Vous pouvez également ajouter un script pour utiliser le compilateur TypeScript dans le fichier `package.json`. Après avoir ajouté le script, vous pouvez exécuter la commande `npm run typecheck` afin de vérifier les fichiers du projet.
+
+```jsonc
+// package.json
+
+{
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+  },
 }
 ```
