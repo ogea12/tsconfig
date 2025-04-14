@@ -1,4 +1,6 @@
-# @ogea12/tsconfig
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4d3a02a4-ada8-48c3-b281-862d5799134b" />
+</div>
 
 <div align="center">
 
