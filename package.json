@@ -27,9 +27,9 @@
     "url": "git+https://github.com/ogea12/tsconfig.git"
   },
   "devDependencies": {
-    "@ogea12/prettier-config": "^1.0.4",
+    "@ogea12/prettier-config": "^1.0.5",
     "prettier": "^3.5.3",
-    "release-it": "^18.1.2",
+    "release-it": "^19.0.2",
     "taze": "^19.0.4"
   },
   "peerDependencies": {
