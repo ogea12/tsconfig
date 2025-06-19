@@ -18,6 +18,7 @@
   },
   "scripts": {
     "format": "prettier --write .",
+    "prepare": "husky",
     "release": "npx release-it",
     "taze": "npx taze"
   },
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "@ogea12/prettier-config": "^1.0.6",
+    "husky": "^9.1.7",
     "prettier": "^3.5.3",
     "release-it": "^19.0.2",
     "taze": "^19.1.0"
