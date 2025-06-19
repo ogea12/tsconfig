@@ -1,7 +1,7 @@
 {
   "name": "@ogea12/tsconfig",
   "description": "Config' TypeScript appliquées dans les projets de l'OGEA 12",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "engines": {
     "node": ">=20.17.0"
   },
