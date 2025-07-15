@@ -28,14 +28,14 @@
     "url": "git+https://github.com/ogea12/tsconfig.git"
   },
   "devDependencies": {
-    "@ogea12/prettier-config": "^1.0.7",
+    "@ogea12/prettier-config": "^1.0.8",
     "husky": "^9.1.7",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.2",
     "release-it": "^19.0.3",
     "taze": "^19.1.0"
   },
   "peerDependencies": {
-    "@swc/core": "^1.12.3",
+    "@swc/core": "^1.12.14",
     "typescript": "^5.8.3"
   },
   "author": "OGEA 12",
