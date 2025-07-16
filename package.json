@@ -19,8 +19,8 @@
   "scripts": {
     "format": "prettier --write .",
     "prepare": "husky",
-    "release": "npx release-it",
-    "taze": "npx taze"
+    "release": "release-it",
+    "taze": "taze"
   },
   "homepage": "https://github.com/ogea12/tsconfig#readme",
   "repository": {
